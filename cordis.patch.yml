@@ -1,0 +1,9 @@
+# Adds the macOS window drag band to the profile that installs this bundle.
+#
+#   dsh plugin --profile <profile> add /path/to/window-drag
+#
+# The Host half is an empty plugin; lib/client.js does all the work inside the
+# window whose top edge is supposed to move it.
+- insert:
+    - id: window-drag
+      name: 'youyou-window-drag'

@@ -1,0 +1,48 @@
+{
+  "name": "youyou-window-drag",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Drag the whole macOS DSH Desktop window by its top strip: restores the draggable top band that overlapping no-drag chrome boxes subtract",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    ".gitignore"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mryouyouHK/youyou-window-drag.git"
+  },
+  "homepage": "https://github.com/mryouyouHK/youyou-window-drag#readme",
+  "bugs": {
+    "url": "https://github.com/mryouyouHK/youyou-window-drag/issues"
+  },
+  "license": "MIT",
+  "author": "litianzhuang",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin"
+  ]
+}
