@@ -1,0 +1,2 @@
+# youyou-window-drag
+Adds an invisible draggable strip along the top edge of the macOS desktop window so the whole window moves when you press and drag there, fixing chrome rows that overlapping no-drag boxes had left undraggable.
